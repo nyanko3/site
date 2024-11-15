@@ -1,0 +1,44 @@
+#sidebar {
+	font-size: 15px;
+	padding-top: 120px;
+	width: 260px;
+	height: 100%;
+	position: fixed;
+	color: #033560;
+	background: #fff;
+	text-align: center;
+}
+ 
+#global-nav ul {
+	list-style: none;
+	margin-left: 0;
+}
+#global-nav > ul > li {
+	position: relative;
+}
+ 
+#global-nav a {
+	color: #033560;
+	text-decoration: none;
+	display: block;
+	padding: 15px 0;
+	transition: background-color .3s linear;
+}
+ 
+/* sub-menu */
+#global-nav .sub-menu-nav {
+	position: fixed;
+	background: #033560;
+	color: #fff;
+	top: 0;
+	padding-top: 90px;
+	left: 260px;
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	transition: width .2s ease-out;
+}
+#global-nav .sub-menu-nav a,
+#global-nav .sub-menu:hover .sub-menu-nav {
+	width: 230px;
+}
