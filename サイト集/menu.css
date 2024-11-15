@@ -11,7 +11,7 @@
  
 #global-nav ul {
 	list-style: none;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 #global-nav > ul > li {
 	position: relative;
@@ -32,7 +32,7 @@
 	color: #fff;
 	top: 0;
 	padding-top: 90px;
-	left: 50px;
+	left: 0px;
 	width: 0;
 	height: 100%;
 	overflow: hidden;
