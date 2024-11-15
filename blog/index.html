@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>サイト集</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/css/menu>
+</head>
+<body>
+<aside id="sidebar" class="scroll">
+	<nav id="global-nav">
+		<ul>
+			<li class="sub-menu">
+				<a href="#" class="sub-menu-head">About</a>
+				<ul class="sub-menu-nav">
+					<li><a href="https://www.google.co.jp" style="color: white;">かきくけこ</a></li>
+					<li><a href="#">About 2</a></li>
+				</ul>
+			</li>
+			<li class="sub-menu">
+				<a href="#" class="sub-menu-head">Products</a>
+				<ul class="sub-menu-nav">
+					<li><a href="#" id="ka">Product 1</a></li>
+					<li><a href="#">Product 2</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</aside>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+<script type="text/javascript">
+(function($) {
+    $(function () {
+        $('.sub-menu').on({
+            'mouseenter': function () {
+                $(this).addClass('is-active');
+            },
+            'mouseleave': function () {
+                $(this).removeClass('is-active');
+            }
+        });
+        $('#nav-toggle,#overlay').on('click', function() {
+            $('body').toggleClass('open');
+        });
+    });
+})(jQuery);
+</script>
