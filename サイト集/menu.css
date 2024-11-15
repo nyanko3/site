@@ -1,7 +1,7 @@
 #sidebar {
 	font-size: 30px;
 	padding-top: 5px;
-	width: 5px;
+	width: 0px;
 	height: 100%;
 	position: fixed;
 	color: #red;
@@ -21,7 +21,7 @@
 	color: #033560;
 	text-decoration: none;
 	display: block;
-	padding: 5px;
+	padding: 10px;
 	transition: background-color .3s linear;
 }
  
