@@ -1,7 +1,7 @@
 #sidebar {
 	font-size: 30px;
-	padding-top: 0px;
-	width: 20px;
+	padding-top: 5px;
+	width: 5px;
 	height: 100%;
 	position: fixed;
 	color: #red;
@@ -11,7 +11,7 @@
  
 #global-nav ul {
 	list-style: none;
-	margin-left: 0;
+	margin-left: 10;
 }
 #global-nav > ul > li {
 	position: relative;
