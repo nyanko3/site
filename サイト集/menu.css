@@ -11,7 +11,7 @@
  
 #global-nav ul {
 	list-style: none;
-	margin-left: 10;
+	margin-left: 10px;
 }
 #global-nav > ul > li {
 	position: relative;
